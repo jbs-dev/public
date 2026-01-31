@@ -1,15 +1,15 @@
-#### Functional
+#### Backtesting-SP500
 
 ###### Is the structure of the project as below?
 
 ```
 project
 │   README.md
-│   environment.yml
+│   requirements.txt
 │
 └───data
 │   │   sp500.csv
-│   |   prices.csv
+│   |   stock_prices.csv
 │
 └───notebook
 │   │   analysis.ipynb
@@ -30,7 +30,7 @@ project
 
 ###### Does the readme file contain a description of the project, explain how to run the code from an empty environment, give a summary of the implementation of each python file and contain a conclusion that gives the performance of the strategy?
 
-###### Does the environment contain all libraries used and their versions that are necessary to run the code?
+###### Does the requirements contain all libraries used and their versions that are necessary to run the code?
 
 ###### Does the notebook contain a missing values analysis? **Example**: number of missing values per variables or per year
 
@@ -47,7 +47,7 @@ project
 - For all questions always check the values are sorted by date. If not the answers are wrong.
 - The plots are validated only if they contain a title
 
-### Python files
+#### Python files
 
 ##### 1. memory_reducer.py
 
@@ -107,7 +107,7 @@ Best practice:
 
 ![alt text][performance]
 
-[performance]: ../images/w1_weekend_plot_pnl.png 'Cumulative Performance'
+[performance]: ../images/w1_weekend_plot_pnl.png "Cumulative Performance"
 
 ##### 5. main.py
 
