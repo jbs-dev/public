@@ -1,6 +1,6 @@
 #### Functional
 
-###### Has the requirement for the allowed packages been respected? (Reminder for this project: only [standard packages](https://golang.org/pkg/))
+###### Has the requirement for the allowed packages been respected? (Reminder for this project: only [standard packages](https://golang.org/pkg/) and [Gorilla](https://pkg.go.dev/github.com/gorilla/websocket))
 
 ##### Play and finish the game.
 
@@ -42,7 +42,7 @@
 
 #### Bonus
 
-###### +Does the project runs quickly and effectively? (Favoring recursive, no unnecessary data requests, etc...)
+###### +Does the project run quickly and effectively? (Favoring recursive, no unnecessary data requests, etc...)
 
 ###### +Does the code obey the [good practices](../../../good-practices/README.md)?
 

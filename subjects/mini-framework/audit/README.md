@@ -12,7 +12,7 @@
 
 ###### Does the documentation contain an explanation on how the framework works?
 
-##### Open the todoMVC project and compare it to other [todoMVC project](http://todomvc.com/) ([example](http://todomvc.com/examples/vanillajs/)).
+##### Open the todoMVC project and compare it to other [todoMVC project](http://todomvc.com/) ([example](https://todomvc.com/examples/javascript-es6/dist/)).
 
 ###### Does it contain every element as the other todoMVCs examples?
 
@@ -58,7 +58,7 @@
 
 ###### +Is it easier to handle the routing in JS using the framework?
 
-###### +Does the project runs quickly and effectively? (Favoring recursivity, no unnecessary data requests, etc...)
+###### +Does the project run quickly and effectively? (Favoring recursivity, no unnecessary data requests, etc...)
 
 ###### +Is the code using asynchronicity to increase performance?
 
