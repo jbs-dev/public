@@ -6,7 +6,7 @@
 
 ##### Run `python --version`.
 
-###### Does it print `Python 3.x`? x >= 8
+###### Does it print `Python 3.x`? x >= 9
 
 ###### Do `import jupyter`, `import pandas`, `import nltk` and `import sklearn` run without any error?
 
@@ -40,7 +40,7 @@ Name: text, dtype: object
 
 #### Exercise 2: Punctuation
 
-###### For question 1, is validated if the ouptut doesn't contain punctuation `` !"#$%&'()*+,-./:;<=>?@[]^_`{|}~ ``. Is the previous statement true? Do not take into account the spaces in the output. The output should be as:
+###### For question 1, is validated if the ouptut doesn't contain punctuation ``!"#$%&'()*+,-./:;<=>?@[]^_`{|}~``. Is the previous statement true? Do not take into account the spaces in the output. The output should be as:
 
 ```
 Remove this from  the sentence
@@ -183,26 +183,66 @@ Remove this from  the sentence
 
 ##### The exercise is validated if all questions of the exercise are validated
 
-###### For question 1, is the output of the CountVectorizer the following?
+###### For question 1, is the output of the `CountVectorizer` the following?
 
 ```
 <6588x500 sparse matrix of type '<class 'numpy.int64'>'
-	with 79709 stored elements in Compressed Sparse Row format>
+	with 37334 stored elements in Compressed Sparse Row format>
 ```
 
-###### For question 2, is the output of `print(df.iloc[:3,400:403].to_markdown())` the following?
+###### For question 2, is the output of `print(count_vecotrized_df.iloc[:3,400:403].to_markdown())` the following?
 
-    |    |   talk |   team |   tell |
-    |---:|-------:|-------:|-------:|
-    |  0 |      0 |      0 |      0 |
-    |  1 |      0 |      0 |      0 |
-    |  2 |      0 |      0 |      0 |
+```python
+    |    |   someth |   son |   song |
+    |---:|---------:|------:|-------:|
+    |  0 |        0 |     0 |      0 |
+    |  1 |        0 |     0 |      0 |
+    |  2 |        0 |     0 |      0 |
+```
 
-###### For question 3, is the shape of the wordcount DataFrame `(6588, 501)` and the output of `print(df.iloc[300:304,499:501].to_markdown())` the following?
+###### For question 3, is the output matching with the following one?
 
-    |     |   youtube |   label |
-    |----:|----------:|--------:|
-    | 300 |         0 |       0 |
-    | 301 |         0 |      -1 |
-    | 302 |         1 |       0 |
-    | 303 |         0 |       1 |
+```python
+cant    1
+deal    1
+end     1
+find    1
+keep    1
+like    1
+may     1
+say     1
+talk    1
+Name: 3, dtype: Sparse[int64, 0]
+```
+
+###### For question 4, is the output matching with the following one?
+
+```python
+tomorrow    1126
+go           733
+day          667
+night        641
+may          533
+tonight      501
+see          439
+time         429
+im           422
+get          398
+today        389
+game         382
+saturday     379
+friday       375
+sunday       368
+dtype: int64
+```
+
+###### For question 5, is the output of `print(count_vectorized_df.iloc[350:354,499:501].to_markdown())` the following?
+
+```python
+|     |   your |   label |
+|----:|-------:|--------:|
+| 350 |      0 |       1 |
+| 351 |      1 |      -1 |
+| 352 |      0 |       1 |
+| 353 |      0 |       0 |
+```
