@@ -9,7 +9,7 @@ Be aware that a framework is different from a library. When you call a method fr
 Your framework should implement:
 
 - Abstracting the DOM
-  Routing System
+- Routing System
 - State Management
 - Event Handling
 
@@ -17,7 +17,7 @@ You will also need to make a [todoMVC](http://todomvc.com/) project using your f
 
 ### Instructions
 
-You must create documentation for your framework, so that users (auditers) are able to understand and know how to use your framework without experiencing any awkwardness.
+You must create documentation for your framework, so that users (auditors) are able to understand and know how to use your framework without experiencing any awkwardness.
 
 Your framework will be tested by using it, like you previously have used one, in the social network project. So the user has to be presented to a folder structure that allows him to run the app from the root of that folder structure. The user testing your framework will have to implement some simple code in order to test the features described below.
 
@@ -116,7 +116,7 @@ You will also have to implement a way to handle the events triggered by the user
 
 #### TodoMVC
 
-A todoMVC project consists of creating a [webpage](http://todomvc.com/examples/vanillajs/) (this example is written in VanillaJS) with the same elements present in the example, so we advise you to test it around first. You have to make your todoMVC project, a functional copy of the examples given in the links above, but using your framework.\
+A todoMVC project consists of creating a [webpage](https://todomvc.com/examples/react/dist/) (this example is written in React) with the same elements present in the example, so we advise you to test it around first. You have to make your todoMVC project, a functional copy of the examples given in the links above, but using your framework.\
 Be aware that every thing that we can't visually see has to be present too (IDs, classes, etc.).
 
 This project will help you learn about:

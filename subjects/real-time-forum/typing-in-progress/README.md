@@ -19,17 +19,17 @@ This engine must have/display:
 - A websocket to establish the connection with both users
 - An animation so that the user can see that you are typing, this animation should be smooth (no interruptions/janks) and just enough to draw attention for the user to see (user friendly)
 - The name of the user that is typing
-- Whenever the user stops typing or finishes the conversation, it should not display the animation
+- Whenever the user stops typing or finishes the conversation, it should not display the animation, a short delay may optionally be added for better UX
 
 To help with the display of the typing in progress you can take a look on the js [event](https://developer.mozilla.org/en-US/docs/Web/Events) list, mainly the **Keyboard events** and the **Focus events**
 
 ### Allowed Packages
 
 - All [standard go](https://golang.org/pkg/) packages are allowed.
-- [Gorilla](https://pkg.go.dev/github.com/gorilla/websocket) websocket
+- [Gorilla websocket](https://pkg.go.dev/github.com/gorilla/websocket)
 - [sqlite3](https://github.com/mattn/go-sqlite3)
 - [bcrypt](https://pkg.go.dev/golang.org/x/crypto/bcrypt)
-- [UUID](https://github.com/gofrs/uuid)
+- [gofrs/uuid](https://github.com/gofrs/uuid) or [google/uuid](https://github.com/google/uuid)
 
 This project will help you learn about:
 

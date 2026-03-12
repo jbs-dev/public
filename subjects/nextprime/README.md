@@ -11,14 +11,14 @@ The function must be optimized, so as to avoid time-outs.
 ### Expected function
 
 ```rust
-pub fn next_prime(nbr: u64) -> u64 {
-
+pub fn next_prime(nbr: usize) -> usize {
+    todo!()
 }
 ```
 
 ### Usage
 
-Here is a possible program to test your function :
+Here is a possible program to test your function:
 
 ```rust
 use nextprime::*;
@@ -27,7 +27,6 @@ fn main() {
     println!("The next prime after 4 is: {}", next_prime(4));
     println!("The next prime after 11 is: {}", next_prime(11));
 }
-
 ```
 
 And its output :

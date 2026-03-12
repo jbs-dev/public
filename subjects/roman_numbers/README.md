@@ -25,13 +25,13 @@ pub enum RomanDigit {
 	M,
 }
 
-#[derive(Debug, Clone, Debug, PartialEq, Eq)]
+#[derive(Clone, Debug, PartialEq, Eq)]
 pub struct RomanNumber(pub Vec<RomanDigit>);
 
-impl From<u32> for RomanDigit {
-}
-
 impl From<u32> for RomanNumber {
+	fn from(value: u32) -> Self {
+		todo!()
+    }
 }
 ```
 

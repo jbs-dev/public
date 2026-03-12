@@ -7,6 +7,7 @@ Implement the struct `Color` with the associated function `swap`. This function 
 ### Expected functions
 
 ```rust
+#[derive(Debug, Clone, Copy, PartialEq)]
 pub struct Color {
     pub r: u8,
     pub g: u8,
@@ -16,7 +17,7 @@ pub struct Color {
 
 impl Color {
     pub fn swap(mut self, first: u8, second: u8) -> Color {
-
+        todo!()
     }
 }
 ```
@@ -73,7 +74,6 @@ Color { r: 255, g: 200, b: 30, a: 10 }
 Color { r: 30, g: 200, b: 10, a: 255 }
 Color { r: 255, g: 200, b: 30, a: 10 }
 Color { r: 255, g: 30, b: 10, a: 200 }
-
 $
 ```
 
